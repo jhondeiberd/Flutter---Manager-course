@@ -1,0 +1,40 @@
+{
+  "name": "course-rating-app-api",
+  "version": "1.0.0",
+  "description": "REST API for course rating app",
+  "main": "dist/server.js",
+  "scripts": {
+    "start": "tsc && node dist/server.js",
+    "lint": "eslint . --ext .ts",
+    "test": "npx jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aalex/2022-final-project.git"
+  },
+  "author": "ISI",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aalex/2022-final-project/issues"
+  },
+  "homepage": "https://github.com/aalex/2022-final-project#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.7.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@typescript-eslint/eslint-plugin": "^5.17.0",
+    "@typescript-eslint/parser": "^5.17.0",
+    "eslint": "^8.12.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "jest": "^27.5.1",
+    "typescript": "^4.6.3"
+  }
+}

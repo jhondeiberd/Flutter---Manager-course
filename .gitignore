@@ -1,0 +1,9 @@
+/backend/dist
+/backend/.idea
+/backend/node_modules
+/frontend/.idea
+/frontend/windows
+/.idea
+/backend/TestAPI
+/backend/.vscode
+/frontend/windows

@@ -1,0 +1,9 @@
+# Either one of these authors must approve all PR:
+* @AakaSingh @Anuj16091996 @Rohith944000 @SafaldeepSingh @aalex
+
+# We could then override these global codeowners for some sub-sections:
+# Who must approve backend PR:
+# backend/* @aalex
+
+# Who must approve fronted PR:
+# frontend/* @aalex
